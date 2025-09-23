@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Quiz 1 - Homepage</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body class="index-body">
+    <header-component></header-component>
+    <div class="section-intro">
+            <div class="intro-text"> 
+                <h1><u>Welcome</u> to My Website</h1>
+                <p>This website showcases my personal profile, my hometown, traditional local food, and popular tourist destinations.</p>
+                <a class="explore" href="#links">Explore more 🞃</a>
+            </div>
+            <img src="/img/crops.jpg" alt="Dragonfly" class="intro-image">
+    </div>
+
+    <div class="divider"></div>
+    <div id="links-placeholder" class="placeholder"></div>
+
+    <template id="links-template">
+        <div class="section-links" id="links">
+            <h2>Explore More</h2>
+            <p>Use the navigation links below to learn more about me and my culture!</p>
+            <div class="card-container">
+                <div class="card">
+                    <img src="/img/profile.png" alt="Profile Picture">
+                    <a href="profile.html">My Profile</a>
+                </div>
+                <div class="card">
+                    <img src="/img/hometown.jpg" alt="Hometown Picture">
+                    <a href="hometown.html">My Hometown</a>
+                </div>
+                <div class="card">
+                    <img src="/img/food.jpg" alt="Traditional Local Food">
+                    <a href="local-foods.html">Traditional Local Food</a>
+                </div>
+                <div class="card">
+                    <img src="/img/tourist.jpg" alt="Tourist Places">
+                    <a href="tourist-places.html">Popular Tourist Destinations</a>
+                </div>
+            </div>
+        </div>
+    </template>
+    <footer-component></footer-component>
+    <script src="/js/headerfooter.js"></script>
+    <script src="/js/script.js"></script>
+</body>
+</html>
