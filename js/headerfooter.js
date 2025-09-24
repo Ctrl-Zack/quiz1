@@ -7,8 +7,8 @@ class Header extends HTMLElement {
                     <li><a href="index.html">Home</a></li>
                     <li><a href="profile.html">Profile</a></li>
                     <li><a href="hometown.html">Hometown</a></li>
-                    <li><a href="local-foods.html">Local Foods</a></li>
-                    <li><a href="tourist-places.html">Tourist Places</a></li>
+                    <li><a href="food.html">Local Foods</a></li>
+                    <li><a href="tourist.html">Tourist Places</a></li>
                 </ul>
                 <div class="nav-burger">&#9776;</div>
             </div>
